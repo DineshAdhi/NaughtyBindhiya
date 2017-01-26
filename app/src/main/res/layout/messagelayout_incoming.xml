@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:paddingLeft="13dp"
+    android:layout_marginBottom="10dp"
+    android:layout_height="55dp" android:layout_width="wrap_content">
+
+   <de.hdodenhof.circleimageview.CircleImageView
+       android:layout_width="50dp"
+       android:layout_height="50dp"
+       android:id="@+id/profileImageView"
+       android:src="@drawable/dineshprofileimage"/>
+
+    <android.support.v7.widget.AppCompatTextView
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:textSize="17dp"
+        android:gravity="left"
+        android:textAlignment="gravity"
+        android:padding="3dp"
+        android:fontFamily="sans-serif-condensed"
+        android:textColor="@color/colorPrimary"
+        android:id="@+id/messageTextView"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@+id/profileImageView"
+        android:layout_marginStart="14dp" />
+
+
+</RelativeLayout>

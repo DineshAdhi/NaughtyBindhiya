@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:paddingRight="13dp"
+    android:paddingTop="10dp"
+    android:layout_marginBottom="10dp"
+    android:layout_height="55dp" android:layout_width="wrap_content">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/profileImageView"
+        android:src="@drawable/dineshprofileimage"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="17dp"
+        android:textAlignment="gravity"
+        android:gravity="right"
+        android:padding="3dp"
+        android:fontFamily="sans-serif-condensed"
+        android:textColor="@color/colorPrimary"
+        android:id="@+id/messageTextView"
+        android:layout_centerVertical="true"
+        android:layout_toStartOf="@+id/profileImageView"
+        android:layout_marginEnd="11dp" />
+
+    <ImageView
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:src="@drawable/sendbutton"
+        android:id="@+id/tickImageView"
+        android:visibility="invisible"
+        android:layout_marginEnd="8dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignEnd="@+id/messageTextView" />
+
+
+</RelativeLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1063654785780",
+    "firebase_url": "https://naughtybindhya-83ff8.firebaseio.com",
+    "project_id": "naughtybindhya-83ff8",
+    "storage_bucket": "naughtybindhya-83ff8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1063654785780:android:9aa42a9d3ad45a6d",
+        "android_client_info": {
+          "package_name": "com.loosubindhiya.naughtybindhya"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1063654785780-rf9s1pb1vpcup82056gjq8rou7s8u30u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.loosubindhiya.naughtybindhya",
+            "certificate_hash": "9C18A783BA84BBF6BDC073F9556049CF2603F912"
+          }
+        },
+        {
+          "client_id": "1063654785780-7qn8d36itev30qhuhja5n2riph6418h3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJQv289FAaSVkhD2P3Q1MxpTwET0Zxq1I"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1063654785780-7qn8d36itev30qhuhja5n2riph6418h3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

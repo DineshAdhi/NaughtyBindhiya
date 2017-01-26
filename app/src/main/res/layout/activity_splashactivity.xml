@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_splashactivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#03A9F4"
+    android:visibility="visible"
+    tools:context="com.loosubindhiya.naughtybindhya.splashactivity">
+
+
+    <TextView
+        android:id="@+id/naughtyTextView"
+        android:layout_width="400dp"
+        android:layout_height="70dp"
+        android:text="Naughty Bindhiya"
+        android:padding="5dp"
+        android:textAlignment="center"
+        android:fontFamily="cursive"
+        android:textSize="40dp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:layout_marginTop="206dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/sadimagee"
+        android:layout_marginTop="34dp"
+        android:id="@+id/sadImageID"
+        android:layout_below="@+id/naughtyTextView"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:text="Loosu Maanga, You are not connected to internet"
+        android:textStyle="italic|bold"
+        android:textSize="14dp"
+        android:textColor="#FFFFFF"
+        android:id="@+id/sadText"
+        android:textAlignment="center"
+        android:layout_below="@+id/sadImageID"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="19dp" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/dinesmImageID"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/dineshprofileimage"
+        android:layout_marginBottom="77dp"
+        android:layout_marginStart="12dp"
+        android:visibility="invisible"
+        android:backgroundTint="#FFFFFF"
+        android:backgroundTintMode="multiply"
+        android:layout_above="@+id/sadText"
+        android:layout_alignStart="@+id/sadText" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/bindhiyaprofileimage"
+        android:visibility="invisible"
+        android:id="@+id/bindhiyaImageID"
+        android:backgroundTintMode="multiply"
+        android:backgroundTint="#FFFFFF"
+        android:layout_alignTop="@+id/dinesmImageID"
+        android:layout_alignParentEnd="true"/>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:id="@+id/enterButton"
+        android:text="Continue as Dinesh"
+        android:background="#FFFFFF"
+        android:backgroundTint="#D3D3D3"
+        android:textColor="#03A9F4"
+        android:backgroundTintMode="add"
+        android:layout_below="@+id/sadText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="11dp" />
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:textAlignment="center"
+        android:text="Tap to Login"
+        android:textSize="22dp"
+        android:layout_marginTop="15dp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="44dp"
+        android:id="@+id/taptoLogin"
+        android:visibility="invisible"
+        android:layout_above="@+id/dinesmImageID"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>
